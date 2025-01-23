@@ -1,0 +1,1100 @@
+{
+  "items": [
+    {
+      "_id": "33tv",
+      "themes": [
+        "33 tv",
+        "filosofía",
+        "geometría sagrada",
+        "hermetismo",
+        "omniverso"
+      ],
+      "social": [{ "youtube": "https://www.youtube.com/@33TV-LEAKS" }]
+    },
+    {
+      "_id": "acu",
+      "themes": [
+        "ACU",
+        "asociación",
+        "consumidores",
+        "derechos fundamentales",
+        "extremadura"
+      ],
+      "social": [{ "web": "https://www.acuextremaduralibre.com/" }]
+    },
+    {
+      "_id": "afectadosporlasvacunas",
+      "themes": ["afectados por vacunas", "afectados", "apoyo", "testimonios"],
+      "social": [
+        { "telegram": "https://t.me/AfectadosPorLasVacunas" },
+        { "web": "https://www.afectadosporlasvacunas.com/" }
+      ]
+    },
+    {
+      "_id": "aguaiuris",
+      "themes": [
+        "aguaiuris",
+        "actualidad",
+        "agua",
+        "asociación",
+        "consumidores",
+        "ley"
+      ],
+      "social": [
+        { "telegram": "https://t.me/AGUAIURIS" },
+        { "twitter": "https://twitter.com/aguaiuris" },
+        { "web": "http://aguaiuris.org/" },
+        {
+          "youtube": "https://www.youtube.com/channel/UCX6vQDPH_9aiX60LW_mot1Q"
+        }
+      ]
+    },
+    {
+      "_id": "alarmamundial",
+      "themes": [
+        "alarma mundial",
+        "entrevistas",
+        "historia",
+        "investigación",
+        "tierra plana"
+      ],
+      "social": [
+        { "telegram": "https://web.telegram.org/k/#-1419834943" },
+        { "youtube": "https://www.youtube.com/c/AlarmaMundial" }
+      ]
+    },
+    {
+      "_id": "alejandrozaleta",
+      "themes": [
+        "alejandro zaleta",
+        "energía libre",
+        "historia",
+        "investigación",
+        "tierra plana"
+      ],
+      "social": [
+        { "youtube": "https://www.youtube.com/@alejandrozaleta6148" },
+        { "web": "https://doctorzaleta.com/" }
+      ]
+    },
+    {
+      "_id": "alphapro",
+      "themes": ["alpha pro", "estrategias", "educación financiera", "trading"],
+      "social": [
+        { "instagram": "https://instagram.com/AlphaPro.Academy" },
+        { "facebook": "http://bit.ly/ComunidadAlphaPro" },
+        { "telegram": "https://t.me/AlphaProAcademy" },
+        { "twitter": "https://twitter.com/alphaproacademy" },
+        { "youtube": "https://www.youtube.com/@AlphaProAcademy" },
+        { "web": "https://alphaproacademy.com/" }
+      ]
+    },
+    {
+      "_id": "amosdelmundo",
+      "themes": [
+        "amos del mundo",
+        "historia",
+        "investigación",
+        "nuevo orden mundial"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/amosdelmundo_ok/" },
+        { "telegram": "https://t.me/amosdelmundo" },
+        { "videos": "https://www.youtube.com/@DominioGlobal" },
+        { "youtube": "https://www.youtube.com/c/amosdelmundo" }
+      ]
+    },
+    {
+      "_id": "aquamaris",
+      "themes": ["aquamaris fundación", "agua de mar", "fundación"],
+      "social": [
+        { "web": "http://www.aquamaris.org/" },
+        { "youtube": "https://www.youtube.com/@FundacionAquamarisBadalona" }
+      ]
+    },
+    {
+      "_id": "bandhi",
+      "themes": ["bandhi", "ley natural", "soberanía"],
+      "social": [
+        { "facebook": "https://www.facebook.com/SurfeaElTsunami/" },
+        { "instagram": "https://www.instagram.com/bandhigram/" },
+        { "telegram": "https://t.me/Hacia_la_Soberania" },
+        { "youtube": "https://www.youtube.com/@BANDHI" }
+      ]
+    },
+    {
+      "_id": "boringprivacy",
+      "themes": [
+        "boring privacy",
+        "academia",
+        "anonimato",
+        "ethical hacking",
+        "privacidad"
+      ],
+      "social": [
+        { "info": "https://privacidad.me/@stark" },
+        { "instagram": "https://www.instagram.com/starkprivacy_" },
+        { "telegram": "https://t.me/StarkPrivacy" },
+        { "twitter": "https://x.com/starkprivacy" },        
+        { "web": "https://boringprivacy.io/" },
+        { "youtube": "https://www.youtube.com/@StarkPrivacy" }
+
+      ]
+    },    
+    {
+      "_id": "carmejimenezhuertas",
+      "themes": [
+        "carme jimenez huertas",
+        "5G",
+        "investigación",
+        "lenguaje",
+        "neurolingüística",
+        "opinión"
+      ],
+      "social": [
+        { "blog": "https://carmejhuertas.blogspot.com/" },
+        { "facebook": "https://www.facebook.com/carme.j.huertas/" }
+      ]
+    },
+    {
+      "_id": "canal5tv",
+      "themes": [
+        "canal5 tv",
+        "actualidad",
+        "entrevistas",
+        "humor",
+        "opinión",
+        "periodismo"
+      ],
+      "social": [
+        { "dailymotion": "https://www.dailymotion.com/Canal5Radio" },
+        {
+          "ivoox": "https://www.ivoox.com/en/perfil-canal-5tv_a8_podcaster_12609352_1.html"
+        },
+        { "odysee": "https://odysee.com/@CANAL5RADIO:a" },
+        { "rumble": "https://rumble.com/user/canal5tv" },
+        { "telegram": "https://t.me/canal5informa" },
+        { "twitch": "https://m.twitch.tv/canal_5_tv" },
+        { "videos": "https://canal5radio.tv/" },
+        { "web": "https://canal5tv.es/" }
+      ]
+    },
+    {
+      "_id": "chemtrailslarioja",
+      "themes": [
+        "chemtrails la rioja",
+        "5G",
+        "cambio climático",
+        "geoingeniería",
+        "orgón"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@JUSTICIASOCIAL:5/DIRECTOS:e" },
+        { "telegram": "https://t.me/chemtrailslariojadirectos" }
+      ]
+    },
+    {
+      "_id": "cienciayespiritu",
+      "themes": [
+        "ciencia y espiritu",
+        "actualidad",
+        "agua de mar",
+        "entrevistas",
+        "investigación",
+        "miguel celades"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/groups/cienciayespirituoficial/"
+        },
+        { "telegram": "https://t.me/CIENCIAYESPIRITUoficial" },
+        { "vk": "https://vk.com/cienciayespiritu" },
+        {
+          "youtube": "https://www.youtube.com/channel/UCCbzi7e7zCz4MssN5UUgqyg"
+        }
+      ]
+    },
+    {
+      "_id": "cienciaysaludnatural",
+      "themes": [
+        "ciencia y salud natural",
+        "actualidad",
+        "afectados",
+        "ciencia",
+        "medicina tradicional",
+        "notícias"
+      ],
+      "social": [
+        { "telegram": "https://t.me/cienciaysaludnaturalcom" },
+        { "web": "https://cienciaysaludnatural.com/" }
+      ]
+    },
+    {
+      "_id": "colinrivas",
+      "themes": [
+        "colin rivas",
+        "actualidad",
+        "entrevistas",
+        "humor",
+        "investigación"
+      ],
+      "social": [
+        { "rumble": "https://rumble.com/user/ColinRivasShow" },
+        { "telegram": "https://t.me/colinrivas" },
+        { "twitch": "https://m.twitch.tv/colinesico" },
+        { "videos": "https://colinrivas.show/" }
+      ]
+    },
+    {
+      "_id": "cop225",
+      "themes": ["cop 225", "entrevistas"],
+      "social": [
+        { "rumble": "https://rumble.com/c/c-1939315" },
+        { "telegram": "https://t.me/cop225" }
+      ]
+    },
+    {
+      "_id": "desokupa",
+      "themes": [
+        "desokupa",
+        "actualidad",
+        "opinión"
+      ],
+      "social": [
+        { "telegram": "https://t.me/desokupaOficial" },
+        { "web": "https://www.desokupa.com" },
+        { "youtube": "https://www.youtube.com/@DesokupaTV" }        
+      ]
+    },    
+    {
+      "_id": "diario16",
+      "themes": ["diario16", "actualidad", "opinión", "periodismo", "notícias"],
+      "social": [
+        { "facebook": "https://www.facebook.com/Diario16" },
+        { "instagram": "https://www.instagram.com/diario16/" },
+        { "twitter": "https://twitter.com/diario_16" },
+        { "web": "https://diario16.com/" }
+      ]
+    },
+    {
+      "_id": "discoverysalud",
+      "themes": [
+        "discovery salud",
+        "agua de mar",
+        "dióxido de cloro",
+        "entrevistas",
+        "medicina tradicional",
+        "revista"
+      ],
+      "social": [
+        { "telegram": "https://t.me/DISCOVERY_DSALUD" },
+        { "web": "https://www.dsalud.com/" }
+      ]
+    },
+    {
+      "_id": "dolcarevolucio",
+      "themes": [
+        "dolça revolució",
+        "afectados",
+        "agua de mar",
+        "asociación",
+        "dióxido de cloro",
+        "entrevistas",
+        "josep pamies",
+        "medicina tradicional"
+      ],
+      "social": [
+        { "telegram": "https://t.me/JosepPamiesOficial" },
+        { "web": "https://www.pamiesvitae.com/" }
+      ]
+    },
+    {
+      "_id": "dontrapala",
+      "themes": [
+        "don trápala",
+        "cine",
+        "música",
+        "primado negativo",
+        "programación predictiva",
+        "series"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/dontrapala" },
+        { "instagram2": "https://www.instagram.com/dontrapala_malaga" },
+        { "telegram": "https://t.me/dontrapala" },
+        { "twitch": "https://m.twitch.tv/dontrapala_malaga/videos" },        
+        { "youtube": "https://www.youtube.com/channel/UCqsy9kiNvfM3NE2mK_rkleA" }
+      ]
+    },
+    {
+      "_id": "eclecticosworldwide",
+      "themes": [
+        "eclecticos worldwide",
+        "culturismo",
+        "entrevistas",
+        "opinión"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/EclecticosWorldwidePODCAST" },
+        { "instagram": "https://www.instagram.com/EclecticosWorld" },
+        { "patreon": "https://www.patreon.com/EclecticosWorldwide" },        
+        { "spotify": "https://open.spotify.com/show/472Jn4596fGLumonr1pGy9" },
+        { "telegram": "https://t.me/eclecticosworld" },
+        { "tiktok": "https://tiktok.com/@eclecticosworldwide" },
+        { "twitter": "https://x.com/EclecticosWorld" },
+        { "web": "https://www.eclecticosworldwide.com/" }
+      ]
+    },    
+    {
+      "_id": "elcodigobiologico",
+      "themes": [
+        "el codigo biologico",
+        "biodecodificación",
+        "lenguaje corporal",
+        "medicina integrativa"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/elcodigobiologicopeninsula" },
+        { "web": "https://elcodigobiologico.com/" }
+      ]
+    },
+    {
+      "_id": "eldiestro",
+      "themes": [
+        "el diestro",
+        "actualidad",
+        "opinión",
+        "periodismo",
+        "notícias"
+      ],
+      "social": [
+        { "telegram": "https://t.me/ElDiestro" },
+        { "videos": "https://eldiestro.tv/" },
+        { "web": "https://www.eldiestro.es/" }
+      ]
+    },
+    {
+      "_id": "elexpresodemedianoche",
+      "themes": [
+        "el expreso resurrection",
+        "actualidad",
+        "cambio climático",
+        "geoingeniería",
+        "investigación"
+      ],
+      "social": [
+        {
+          "ivoox": "https://www.ivoox.com/en/perfil-expreso-resurreccion_a8_listener_20277361_1.html"
+        },
+        { "odysee": "https://odysee.com/@DIOSCONNOSOTROS:b" },
+        { "telegram": "https://t.me/elexpresodemedianoche" },
+        { "web": "https://elexpresoresurreccion.com/" }
+      ]
+    },
+    {
+      "_id": "eleuteria",
+      "themes": ["eleuteria", "asociación", "derechos fundamentales", "ley"],
+      "social": [
+        { "telegram": "https://t.me/asociacion_eleuteria" },
+        { "twitter": "https://twitter.com/ELEUTERIA_ddff?s=20" },
+        { "web": "https://www.asociacioneleuteria.org/" }
+      ]
+    },
+    {
+      "_id": "elgrimorio",
+      "themes": [
+        "el grimorio",
+        "biodecodificación",
+        "hermetismo",
+        "historia",
+        "magia"
+      ],
+      "social": [
+        { "patreon": "https://www.patreon.com/elgrimorio" },
+        { "youtube": "https://www.youtube.com/@ElGrimorio" }
+      ]
+    },
+    {
+      "_id": "elpendulodemoises",
+      "themes": ["el pendulo de moises", "ciencia", "tierra plana", ""],
+      "social": [
+        { "facebook": "https://www.facebook.com/moises.alvarezr" },
+        { "youtube": "https://www.youtube.com/@ElpendulodeMoises" }
+      ]
+    },
+    {
+      "_id": "enmanosdequienestamos",
+      "themes": [
+        "en manos de quien estamos",
+        "geoingeniería",
+        "investigación",
+        "nuevo orden mundial"
+      ],
+      "social": [{ "telegram": "https://t.me/emdqe" }]
+    },
+    {
+      "_id": "enprimeraplana",
+      "themes": ["en primera plana", "ciencia", "revista", "tierra plana"],
+      "social": [{ "web": "https://enprimeraplana.org/" }]
+    },
+    {
+      "_id": "euskalnews",
+      "themes": ["euskalnews", "actualidad", "notícias", "periodismo"],
+      "social": [
+        { "instagram": "https://www.instagram.com/euskalnews/" },
+        { "telegram": "https://t.me/euskalnews" },
+        { "twitter": "https://twitter.com/euskalnewsmedia" },
+        { "videos": "https://euskalnews.tv/" },        
+        { "web": "http://euskalnews.com/" }
+      ]
+    },
+    {
+      "_id": "exponiendolaverdad",
+      "themes": [
+        "exponiendo la verdad",
+        "cine",
+        "primado negativo",
+        "programación predictiva",
+        "series"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/exponiendo_la_verdad/" },
+        { "telegram": "https://t.me/enrique_exponiendolaverdad" },
+        { "twitch": "https://m.twitch.tv/exponiendolaverdad" },
+        { "web": "http://www.exponiendolaverdad.com" },
+        { "youtube": "https://www.youtube.com/c/Exponiendolaverdad" }
+      ]
+    },
+    {
+      "_id": "genteporlaverdad",
+      "themes": ["gente por la verdad", "sin censura"],
+      "social": [
+        { "telegram": "https://t.me/peopleforthetruth" },
+        { "web": "https://genteporlaverdad.com/" }
+      ]
+    },
+    {
+      "_id": "haciaunnuevoparadigmamedico",
+      "themes": [
+        "hacia un nuevo paradigma médico",
+        "iñigo gómez ojinaga",
+        "medicina integrativa"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@drgomezojinaga:5" },
+        { "telegram": "https://t.me/igo1969" }
+      ]
+    },
+    {
+      "_id": "healthbest",
+      "themes": [
+        "health best",
+        "biodecodificación",
+        "geoingeniería",
+        "juan zaragoza",
+        "salud"
+      ],
+      "social": [{ "telegram": "https://t.me/healthbest" }]
+    },
+    {
+      "_id": "hermanosbarea",
+      "themes": [
+        "hermanos barea",
+        "actualidad",
+        "historia",
+        "investigación",
+        "mitología",
+        "masonería",
+        "nueva medicina germanica",
+        "nuevo orden mundial",
+        "tierra plana"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@HermanosBarea:9" },
+        { "telegram": "https://t.me/hermanosbarea" },
+        { "videos": "https://hermanosbarea.tv/" }
+      ]
+    },
+    {
+      "_id": "homovivo",
+      "themes": ["homo vivo", "ley natural", "soberanía", "testimonios"],
+      "social": [{ "youtube": "https://www.youtube.com/@homovivo2801" }]
+    },
+    {
+      "_id": "jorgebenito",
+      "themes": [
+        "jorge benito",
+        "carl jung",
+        "control mental",
+        "filosofia"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/jorgebenito.life/" },
+        { "web": "https://jorgebenito.life/copywriting-curso-online/" },        
+        { "youtube": "https://www.youtube.com/@JorgeBenito" }
+      ]
+    },
+    {
+      "_id": "jorgeguerra",
+      "themes": [
+        "jorge guerra",
+        "historia",
+        "investigación",
+        "nobleza negra",
+        "nuevo orden mundial"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/people/Jorge-Guerra/100079126114694/"
+        },
+        { "odysee": "https://odysee.com/@JorgeGuerra:4" },
+        { "patreon": "https://www.patreon.com/jorgeguerra" },
+        { "telegram": "https://t.me/canaljorgeguerra" }
+      ]
+    },
+    {
+      "_id": "jtolanmedia",
+      "themes": ["jTolan media", "ciencia", "tierra plana"],
+      "social": [{ "youtube": "https://www.youtube.com/@jtolanmedia1773" }]
+    },
+    {
+      "_id": "juna",
+      "themes": ["juna (G1)", "g1", "juna", "moneda libre"],
+      "social": [
+        { "software": "https://cesium.app/es/" },
+        { "telegram": "https://t.me/g1primerospasoschat" },
+        { "web": "https://g1-monedalibre.org/" }
+      ]
+    },
+    {
+      "_id": "laquintacolumna",
+      "themes": ["la quinta columna", "5G", "actualidad", "investigación"],
+      "social": [
+        { "telegram": "https://t.me/s/laquintacolumna" },
+        { "videos": "https://laquintacolumna.tv/" },        
+        { "web": "https://www.laquintacolumna.net/" }
+      ]
+    },
+    {
+      "_id": "liberum",
+      "themes": ["liberum", "asociación", "derechos fundamentales", "ley"],
+      "social": [
+        { "odysee": "https://odysee.com/@LIBERUM:4" },
+        { "telegram": "https://t.me/liberumasociscion" },
+        { "web": "https://liberumasociacion.org/" }
+      ]
+    },
+    {
+      "_id": "mai",
+      "themes": [
+        "mov. asistencia integral",
+        "afectados",
+        "apoyo",
+        "asociación",
+        "consulta",
+        "medicina tradicional",
+        "nadia popel"
+      ],
+      "social": [
+        { "telegram": "https://t.me/movimiento_asistencia_integral" },
+        { "web": "https://movimiento-asistencia-integral.com/" }
+      ]
+    },
+    {
+      "_id": "martinsanchez",
+      "themes": ["martin sánchez", "actualidad", "música", "opinión"],
+      "social": [
+        { "telegram": "https://t.me/martinsanchezrockdisidente" },
+        { "videos": "https://martinsanchez.live" },        
+        { "youtube": "https://www.youtube.com/user/Martinsanchezcrooner" }
+      ]
+    },
+    {
+      "_id": "magnaveritas",
+      "themes": [
+        "magna veritas",
+        "historia",
+        "investigación",
+        "programación predictiva",
+        "tierra plana"
+      ],
+      "social": [
+        { "telegram": "https://t.me/magnaveritastelegram" },
+        { "youtube": "https://www.youtube.com/c/MagnaVeritas9" }
+      ]
+    },
+    {
+      "_id": "miguelrix",
+      "themes": [
+        "miguel rix",
+        "actualidad",
+        "música",
+        "nuevo orden mundial",
+        "opinión",
+        "periodismo"
+      ],
+      "social": [
+        { "telegram": "https://t.me/miguelrix" },
+        { "web": "https://www.miguelrix.com/" },
+        { "youtube": "https://www.youtube.com/user/Martinsanchezcrooner" }
+      ]
+    },
+    {
+      "_id": "mundodesconocido",
+      "themes": ["mundo desconocido", "entrevistas", "investigación"],
+      "social": [
+        { "facebook": "https://www.facebook.com/people/Jos%C3%A9-Luis-Camacho-Espina/100044240119049/" },
+        { "telegram": "https://t.me/Mundo_Desconocido_Oficial" },
+        { "twitter": "https://twitter.com/MundoDesconocio" },
+        { "videos": "https://video.mundodesconocido.com/" },
+        { "web": "https://www.mundodesconocido.es/estamos-viviendo-en-el-870-d-c-la-nueva-cronologia-de-la-historia/" },
+        { "youtube": "https://www.youtube.com/c/MundoDesconocidoOficial" }
+      ]
+    },
+    {
+      "_id": "naov",
+      "themes": ["naov", "ciencia", "investigación", "tierra plana"],
+      "social": [
+        { "telegram": "https://t.me/NaovCanal" },
+        { "youtube": "https://www.youtube.com/c/NAOVentretenimiento" }
+      ]
+    },
+    {
+      "_id": "nauzetmorgade",
+      "themes": [
+        "nauzet morgade",
+        "actualidad",
+        "cambio climático",
+        "geoingeniería",
+        "investigación",
+        "periodismo"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/pg/Nauzet-Morgade-Periodismo-Ciudadano-111851580244491/posts/" },
+        { "odysee": "https://odysee.com/@NauzetMorgade:8" },
+        { "telegram": "https://t.me/NauzetMorgadeOficial" }
+      ]
+    },
+    {
+      "_id": "neokronomika",
+      "themes": ["neokronomika", "fomenko", "historia", "nueva cronologia"],
+      "social": [
+        { "instagram": "https://www.instagram.com/cronos1152/" },
+        { "twitter": "https://twitter.com/cronos1152" },
+        { "youtube": "https://www.youtube.com/@NEOKRONOMIKA" }
+      ]
+    },
+    {
+      "_id": "noestoydebroma",
+      "themes": [
+        "no estoy de broma",
+        "investigación",
+        "primado negativo",
+        "tierra plana"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@noestoydebroma:e" },
+        { "youtube": "https://www.youtube.com/channel/UCtETY0lDNxJCci8U0NXF4cg" }
+      ]
+    },
+    {
+      "_id": "nuevodesordenmundial",
+      "themes": [
+        "nuevo desorden mundial",
+        "historia",
+        "investigación",
+        "nobleza negra",
+        "nuevo orden mundial"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/BudhhaBrot" },
+        { "telegram": "https://t.me/MAFIAMUNDIAL" },
+        { "web": "https://nuevodesordenmundial.com/" },
+        { "youtube" : "https://www.youtube.com/@nuevodesordenmundial7230" },        
+        { "youtube2" : "https://www.youtube.com/@ndmcanalsecundario6285" }
+      ]
+    },
+    {
+      "_id": "nurparatodos",
+      "themes": [
+        "nur para todos",
+        "ciencia",
+        "investigación",
+        "masonería",
+        "nasa",
+        "nueva medicina germanica",
+        "nuevo orden mundial",
+        "tierra plana"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/nurparatodos/" },
+        { "odysee": "https://odysee.com/@NurParaTodos:1" },
+        { "telegram": "https://t.me/nurparatodos81" },
+        { "twitch": "https://m.twitch.tv/nurparatodosdigital" },
+        { "videos": "https://nptmedia.tv/" },
+        { "web": "https://nurparatodos.com.ar" },
+        { "youtube": "https://www.youtube.com/c/NurParaTodosIruLanducciTierraPlana" }
+      ]
+    },
+    {
+      "_id": "oddtv",
+      "themes": [
+        "odd TV",
+        "música",
+        "nasa",
+        "nuevo orden mundial",
+        "tierra plana"
+      ],
+      "social": [
+        { "blog": "http://oddtv3.blogspot.com/2017/10/who-is-odd-tv.html" },
+        { "facebook": "https://www.facebook.com/TruthaVision/" },
+        { "instagram": "https://www.instagram.com/Truthavision/" },
+        { "rokfin": "https://www.rokfin.com/creator/oddtv" },
+        { "twitter": "https://twitter.com/Truthavision" },
+        { "youtube": "https://www.youtube.com/@Truthavision" }
+      ]
+    },
+    {
+      "_id": "oliveribanyez",
+      "themes": [
+        "oliver ibanyez",
+        "historia",
+        "mitología",
+        "nasa",
+        "nuevo orden mundial",
+        "tierra plana"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/Oliver.Ibanez.Youtube/" },
+        { "instagram": "https://www.instagram.com/oliver_ibanez_youtube/" },
+        { "telegram": "https://t.me/oliveribanez" },
+        { "tiktok": "https://www.tiktok.com/@oliver_ibanez" },
+        { "twitch": "https://www.twitch.tv/oliver_ibanez" },        
+        { "twitter": "https://x.com/Oliver_Youtube" },
+        { "youtube": "https://www.youtube.com/@oliveribanez" }
+      ]
+    },
+    {
+      "_id": "pachamamaflat",
+      "themes": [
+        "pachamama flat",
+        "historia",
+        "investigación",
+        "mitología",
+        "tierra plana"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/tierraplanaperu" },
+        { "instagram": "https://www.instagram.com/pachamama_flat/" },
+        { "odysee": "https://odysee.com/@PachamamaFlat:b" },
+        { "telegram": "https://t.me/pachainformacion" }
+      ]
+    },    
+    {
+      "_id": "pildoradeacero",
+      "themes": [
+        "pildora de acero",
+        "historia",
+        "masonería",
+        "ocultismo"
+      ],
+      "social": [
+        { "youtube": "https://www.youtube.com/@pildoradeacero" }
+      ]
+    },
+    {
+      "_id": "plural21",
+      "themes": [
+        "plural 21",
+        "asociación",
+        "entrevistas",
+        "salud"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/plural21" },
+        { "ivoox": "https://www.ivoox.com/en/perfil-plural-21_a8_podcaster_23034646_1.html" },
+        { "rumble": "https://rumble.com/user/Plural21" },
+        { "twitch": "https://www.twitch.tv/plural_21" },
+        { "web": "https://plural-21.org/" },        
+        { "youtube": "https://www.youtube.com/@Plural-21" }        
+      ]
+    },
+    {
+      "_id": "policiasporlalibertad",
+      "themes": [
+        "policias por la libertad",
+        "derechos fundamentales",
+        "entrevistas",
+        "justicia",
+        "ley"
+      ],
+      "social": [
+        { "telegram": "https://t.me/policiasporlalibertad" },
+        { "videos": "https://policiasporlalibertad.tv/" },
+        { "web": "https://www.policiasporlalibertad.com/" }
+      ]
+    },
+    {
+      "_id": "libertademocional",
+      "themes": [
+        "libertad emocional",
+        "medicina tradicional",
+        "entrevistas",
+        "paco vinagre",
+        "tierra plana"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/Asc.LibertadEmocional" },
+        { "instagram": "https://www.instagram.com/libertademocionaloficial/" },
+        { "youtube": "https://www.youtube.com/c/LibertadEmocional" }
+      ]
+    },
+    {
+      "_id": "losliberales",
+      "themes": [
+        "los liberales",
+        "actualidad",
+        "historia",
+        "nuevo orden mundial"
+      ],
+      "social": [
+        { "facebook": "https://www.facebook.com/nicolasmorasok/" },
+        { "instagram": "https://www.instagram.com/LosLiberales/" },
+        { "telegram": "https://t.me/LosLiberales" },
+        { "twitter": "https://twitter.com/LosLiberales6" },
+        { "youtube": "https://www.youtube.com/@losliberales" }
+      ]
+    },
+    {
+      "_id": "mdta",
+      "themes": [
+        "MDTAcademy",
+        "academia",
+        "trading"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/mdta.academy" },
+        { "telegram": "https://t.me/MDTAcademyOficial" },
+        { "twitter": "https://www.twitter.com/mdtacademy" },
+        { "videos": "https://app.mdtacademy.com/" },
+        { "web": "https://www.mdtacademy.com/" },
+        { "youtube": "https://www.youtube.com/c/mdtacademy" }
+      ]
+    },
+    {
+      "_id": "opinatubers",
+      "themes": [
+        "opinatubers",
+        "entrevistas",
+        "medicina tradicional",
+        "música"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@Opinatubers:b" },
+        { "telegram": "https://t.me/opinatubers_uncensored" },
+        { "twitch": "https://m.twitch.tv/opinatubers" }
+      ]
+    },
+    {
+      "_id": "ramblalibre",
+      "themes": ["rambla libre", "actualidad", "notícias", "periodismo"],
+      "social": [
+        { "facebook": "https://www.facebook.com/ramblalibrecom" },
+        { "twitter": "https://twitter.com/ramblalibre_com" },
+        { "web": "https://ramblalibre.com/" }
+      ]
+    },
+    {
+      "_id": "revelandoelvelo",
+      "themes": ["revelando el velo", "historia", "mitología", "ocultismo"],
+      "social": [
+        { "youtube": "https://www.youtube.com/@revelandoelvelo" },
+        { "youtube2": "https://www.youtube.com/@RevelandoelVeloShorts" }
+      ]
+    },
+    {
+      "_id": "rimbel35",
+      "themes": ["rimbel 35", "astrologia", "investigación"],
+      "social": [
+        { "instagram": "https://www.instagram.com/rimbel_35/" },
+        { "odysee": "https://odysee.com/@RIMBEL35:f" },
+        { "youtube": "https://www.youtube.com/user/RIMBEL35" }
+      ]
+    },
+    {
+      "_id": "robertmartinez",
+      "themes": [
+        "robert martinez",
+        "actualidad",
+        "astrologia",
+        "primado negativo",
+        "programación predictiva"
+      ],
+      "social": [
+        { "telegram": "https://t.me/robertmartinezastro" },
+        { "web": "https://www.cosmograma.com/astrologos/robert-martinez" },
+        { "youtube": "https://www.youtube.com/@RobertMartinez1111" }
+      ]
+    },
+    {
+      "_id": "scabelum",
+      "themes": [
+        "scabelum",
+        "actualidad",
+        "asociación",
+        "consumidores",
+        "derechos fundamentales",
+        "entrevistas",
+        "ley"
+      ],
+      "social": [
+        { "telegram": "https://t.me/scabelum_acus" },
+        { "twitch": "https://m.twitch.tv/scabelum" }
+      ]
+    },
+    {
+      "_id": "smartmoneytrading",
+      "themes": [
+        "smart money trading",
+        "estrategias",
+        "educación financiera",
+        "trading"
+      ],
+      "social": [{ "youtube": "https://www.youtube.com/@smartmoneytrading-" }]
+    },
+    {
+      "_id": "stopvacunas",
+      "themes": [
+        "stop vacunas",
+        "afectados",
+        "medicina tradicional",
+        "opinión",
+        "periodismo",
+        "vacunas"
+      ],
+      "social": [
+        { "facebook": "https://facebook.com/stopvacunasoficial" },
+        { "odysee": "https://odysee.com/@STOPVACUNAS" },
+        { "telegram": "https://t.me/STOPVACUNAS" },
+        { "web": "https://stopvacunas.wordpress.com/" }
+      ]
+    },
+    {
+      "_id": "soberbiasomostodos",
+      "themes": [
+        "soberbia somos todos",
+        "ciencia",
+        "investigación",
+        "filosofía",
+        "tierra plana"
+      ],
+      "social": [
+        { "twitter": "https://twitter.com/soberbiast" },
+        { "youtube": "https://www.youtube.com/c/SoberbiaSomosTodos/about" }
+      ]
+    },
+    {
+      "_id": "soynaer",
+      "themes": ["naer", "música"],
+      "social": [
+        { "facebook": "https://www.facebook.com/soynaer" },
+        { "instagram": "https://www.instagram.com/soynaer/" },
+        { "telegram": "https://t.me/NaerOficial" },
+        { "youtube": "https://www.youtube.com/c/NAERSITA" },
+        { "web": "https://soynaer.com/" }
+      ]
+    },    
+    {
+      "_id": "surfeandoelkaliyuga",
+      "themes": ["surfeando el kali yuga", "investigación", "música"],
+      "social": [
+        { "instagram": "https://www.instagram.com/surfeandokaliyuga/" },
+        { "telegram": "https://t.me/surfeandoelkaliyuga" },
+        { "youtube": "https://www.youtube.com/@SurfeandoelKaliYuga" }
+      ]
+    },
+    {
+      "_id": "tierrapura",
+      "themes": [
+        "tierra pura",
+        "actualidad",
+        "notícias",
+        "periodismo",
+        "medicina tradicional"
+      ],
+      "social": [
+        { "telegram": "https://t.me/tierrapura" },
+        { "web": "https://tierrapura.org/" }
+      ]
+    },    
+    {
+      "_id": "tokinprivacy",
+      "themes": [
+        "tokin privacy",
+        "academia",
+        "anonimato",
+        "ethical hacking",
+        "privacidad"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/tokinprivacy/" },
+        { "telegram": "https://t.me/TokinPrivacy" },
+        { "tiktok": "https://www.tiktok.com/@tokinprivacy" },
+        { "twitter": "https://twitter.com/RavePrivacy" },
+        { "youtube": "https://www.youtube.com/@TokinPrivacy" },
+        { "web": "https://www.tokinprivacy.io/" }
+      ]
+    },
+    {
+      "_id": "trikooba",
+      "themes": ["trikooba", "actualidad", "notícias", "periodismo"],
+      "social": [
+        { "instagram": "https://www.instagram.com/trikooba/" },
+        { "facebook": "https://www.facebook.com/trikoobacom/" },
+        { "telegram": "https://t.me/trikooba" },
+        { "twitter": "https://twitter.com/trikooba" },
+        { "web": "https://trikooba.blog/" },
+        { "videos": "https://trikoobamedia.xyz/" }
+      ]
+    },
+    {
+      "_id": "tradinggame",
+      "themes": ["trading game", "juego","trading"],
+      "social": [
+        { "web": "https://jbouser.github.io/TRPFX_Memory_Game/index.html" }
+      ]
+    },
+
+    {
+      "_id": "unadosisderealidad",
+      "themes": [
+        "una dosis de realidad",
+        "entrevistas",
+        "investigación",
+        "vacunas"
+      ],
+      "social": [
+        { "odysee": "https://odysee.com/@UNADOSISDEREALIDAD:2" },
+        { "web": "https://unadosisderealidad.es/" }
+      ]
+    },
+    {
+      "_id": "veronicamanjon",
+      "themes": [
+        "veronica manjon",
+        "actualidad",
+        "entrevistas",
+        "historia",
+        "ley natural",
+        "soberanía"
+      ],
+      "social": [
+        { "instagram": "https://www.instagram.com/veronicamanjon/" },
+        { "telegram": "https://t.me/VeronicaManjon" },
+        { "twitch": "https://m.twitch.tv/veronicamanjon" },
+        { "twitter": "https://twitter.com/VeronicaManjon" },
+        { "web": "https://vmanjoncid.myportfolio.com/" }
+      ]
+    }
+  ]
+}
