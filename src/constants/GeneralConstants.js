@@ -31,6 +31,7 @@ export const LOGO = 'logo';
 export const MIN_WIDTH = 768;
 export const N = "n";
 export const NAME = "name";
+export const NO_MATCHES = "no matches";
 export const NOMBRE = "nombre";
 export const NOMBRE_COMPLETO = "nombre completo";
 export const NUM = "num";

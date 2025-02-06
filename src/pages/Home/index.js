@@ -1,9 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Select from 'react-dropdown-select';
 
-import { SelectTags, 
+import {
+  SelectTags,
   // SelectChannels, SelectThemes, 
-  Main } from './HomeElements';
+  Main
+} from './HomeElements';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
 import Sidebar from '../../components/Sidebar';
@@ -11,7 +13,7 @@ import Sidebar from '../../components/Sidebar';
 import Filter from '../../components/Filter';
 import data from '../../data/channels.json';
 import capitalizeName, { capitalizeLine, removeDiacritics } from '../../utils';
-import { CANALES, SIN_COINCIDENCIAS, TEMAS, MAIN, MIN_WIDTH, CHANNEL, THEMES, TRUE, DISABLED, EMPTY } from '../../constants/GeneralConstants';
+import { NO_MATCHES, MAIN, MIN_WIDTH, CHANNEL, THEMES, TRUE, DISABLED, EMPTY, CHANNELS } from '../../constants/GeneralConstants';
 
 // const searchBarChannelsFull = {
 //   padding:"21px",
@@ -27,12 +29,12 @@ import { CANALES, SIN_COINCIDENCIAS, TEMAS, MAIN, MIN_WIDTH, CHANNEL, THEMES, TR
 // }
 
 const searchBarChannels = {
-  padding:"21px",
-  zIndex:996,
-  maxWidth:"50%",
+  padding: "21px",
+  zIndex: 996,
+  maxWidth: "50%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
   /* flex: "1 50%", */
 
@@ -40,12 +42,12 @@ const searchBarChannels = {
 }
 
 const searchBarChannelsSmall = {
-  padding:"21px",
-  zIndex:996,
-  minWidth:"100%",
+  padding: "21px",
+  zIndex: 996,
+  minWidth: "100%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
 
   position: "fixed"
@@ -65,12 +67,12 @@ const searchBarChannelsSmall = {
 // }
 
 const searchBarThemes = {
-  padding:"21px",
-  zIndex:993,
-  maxWidth:"50%",
+  padding: "21px",
+  zIndex: 993,
+  maxWidth: "50%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
   /* flex: "1 50%", */
 
@@ -78,13 +80,13 @@ const searchBarThemes = {
 }
 
 const searchBarThemesSmall = {
-  marginTop:"72px",
-  padding:"21px",
-  zIndex:993,
-  minWidth:"100%",
+  marginTop: "72px",
+  padding: "21px",
+  zIndex: 993,
+  minWidth: "100%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
 
   left: "0px",
@@ -95,9 +97,9 @@ const searchBarThemesSmall = {
   opacity: 0.0,
 } */
 
-class Home extends Component{
+class Home extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.state = {
       is_open: false,
@@ -116,24 +118,24 @@ class Home extends Component{
     this.handleParam = this.handleParam.bind(this);
   }
 
-  componentDidMount(){
-    const handlerScreenUpdate = (e) => {this.setState({is_full_screen: e.matches});}
+  componentDidMount() {
+    const handlerScreenUpdate = (e) => { this.setState({ is_full_screen: e.matches }); }
     window.matchMedia(`(min-width: ${MIN_WIDTH}px)`).addEventListener('change', handlerScreenUpdate);
     this.updateLastPath();
     this.handleParam();
   }
 
   updateLastPath = () => {
-    window.location.last = (window.location.last === undefined) ?         
+    window.location.last = (window.location.last === undefined) ?
       window.location.last = `${window.location.pathname}` :
       window.location.last = window.location.tmp;
     window.location.tmp = `${window.location.pathname}`
   }
 
   toggle = () => {
-    this.state.is_open ? 
-      this.setState({is_open: false}) : 
-      this.setState({is_open: true});
+    this.state.is_open ?
+      this.setState({ is_open: false }) :
+      this.setState({ is_open: true });
   }
 
   handleChange = (item, num) => {
@@ -147,16 +149,16 @@ class Home extends Component{
 
     /* /themes/actualidad -> match:"themes" */
     if (
-      this.props.match.params[0]!==undefined && 
+      this.props.match.params[0] !== undefined &&
       this.props.match.params[0].toLocaleLowerCase().match(THEMES)
-    ){
-      
+    ) {
+
       this.setState({
-        match_text: this.props.match.params[0].split("/")[this.props.match.params[0].split("/").length-1].toLocaleLowerCase(),
+        match_text: this.props.match.params[0].split("/")[this.props.match.params[0].split("/").length - 1].toLocaleLowerCase(),
         active_filter: Number(0),
         is_param: true
       })
-    } 
+    }
   }
 
   /*
@@ -174,7 +176,7 @@ class Home extends Component{
     });
   }
   */
-    
+
   //back to main page from param "/themes/:id_theme"
   resetActiveFilter = () => {
     this.state.match_text = EMPTY;
@@ -182,16 +184,16 @@ class Home extends Component{
     this.state.is_param = false
   }
 
-  checkActiveSelect = function(filter_to_match, active_filter){
+  checkActiveSelect = function (filter_to_match, active_filter) {
     return -1 < active_filter && active_filter !== filter_to_match;
   }
 
   //NOT USED
-  disableSelect = function(text, id, var_text, var_id){
+  disableSelect = function (text, id, var_text, var_id) {
     return var_text !== text && var_id !== id;
-  }   
+  }
 
-  render(){
+  render() {
 
     var {
       is_open, items, is_full_screen, is_param, match_text, active_filter
@@ -206,15 +208,15 @@ class Home extends Component{
       var it = item;
       it._id = removeDiacritics(item._id);
 
-      item.themes.forEach((theme,id) => {
+      item.themes.forEach((theme, id) => {
         //remove Diacritics
-        it.themes[id]=removeDiacritics(theme);
+        it.themes[id] = removeDiacritics(theme);
         //load Themes names
-        if(id !== 0){ themesNames.add(it.themes[id]);} 
+        if (id !== 0) { themesNames.add(it.themes[id]); }
       })
 
       //load Channels data (use .forEach instead .filter or .map)
-      channels.push({ 
+      channels.push({
         value: it._id,
         label: capitalizeLine(it.themes[0])
       });
@@ -224,8 +226,8 @@ class Home extends Component{
     items = items_tmp;
 
     //sort Channels alphabethically
-    channels.sort((a,b) => {
-      return a.value > b.value ? 1 : -1 ;
+    channels.sort((a, b) => {
+      return a.value > b.value ? 1 : -1;
     })
 
     //load Themes data
@@ -234,40 +236,40 @@ class Home extends Component{
         value: theme,
         label: capitalizeLine(theme)
       });
-    }) 
+    })
 
     //sort Themes alphabethically
-    themes.sort((a,b) => {
-      return a.value > b.value ? 1 : -1 ;
+    themes.sort((a, b) => {
+      return a.value > b.value ? 1 : -1;
     })
 
     return (
       <>
-        <Sidebar is_open={is_open} toggle={this.toggle}/>
+        <Sidebar is_open={is_open} toggle={this.toggle} />
         <Main id={MAIN}></Main>
-        <Navbar is_open={is_open} is_param={is_param} toggle={this.toggle} resetActiveFilter={this.resetActiveFilter}/>
+        <Navbar is_open={is_open} is_param={is_param} toggle={this.toggle} resetActiveFilter={this.resetActiveFilter} />
         <SelectTags>
-          <Select options={channels} 
+          <Select options={channels}
             className={CHANNEL}
-            style={ is_full_screen ? searchBarChannels : searchBarChannelsSmall } 
-            placeholder={ (match_text !== EMPTY && active_filter !== 1) ? `(${capitalizeName(CANALES)} ${capitalizeName(DISABLED)})` : capitalizeName(CANALES) }
-            onChange={(channel) => this.handleChange(channel,Number(1))}
-            noDataLabel={capitalizeLine(SIN_COINCIDENCIAS)}
-            disabled={ match_text !== EMPTY && active_filter !== 1} 
+            style={is_full_screen ? searchBarChannels : searchBarChannelsSmall}
+            placeholder={(match_text !== EMPTY && active_filter !== 1) ? `(${capitalizeName(DISABLED)})` : capitalizeName(CHANNELS)}
+            onChange={(channel) => this.handleChange(channel, Number(1))}
+            noDataLabel={capitalizeLine(NO_MATCHES)}
+            disabled={match_text !== EMPTY && active_filter !== 1}
             clearable={TRUE}
-          /> 
-          <Select options={themes} 
+          />
+          <Select options={themes}
             className={THEMES}
-            style={ is_full_screen ? searchBarThemes : searchBarThemesSmall } 
-            placeholder={ (match_text !== EMPTY && active_filter !== 2) ? `(${capitalizeName(TEMAS)} ${capitalizeName(DISABLED)})` : capitalizeName(TEMAS) }
-            onChange={(theme) => this.handleChange(theme,Number(2))} 
-            noDataLabel={capitalizeLine(SIN_COINCIDENCIAS)}
-            disabled={ match_text !== EMPTY && active_filter !== 2 }
+            style={is_full_screen ? searchBarThemes : searchBarThemesSmall}
+            placeholder={(match_text !== EMPTY && active_filter !== 2) ? `(${capitalizeName(DISABLED)})` : capitalizeName(THEMES)}
+            onChange={(theme) => this.handleChange(theme, Number(2))}
+            noDataLabel={capitalizeLine(NO_MATCHES)}
+            disabled={match_text !== EMPTY && active_filter !== 2}
             clearable={TRUE}
-          /> 
+          />
         </SelectTags>
-        <Filter items={items} match_text={match_text} active_filter={active_filter}/>
-        <Footer/>
+        <Filter items={items} match_text={match_text} active_filter={active_filter} />
+        <Footer />
       </>
     );
   }

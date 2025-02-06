@@ -676,6 +676,16 @@
       ]
     },
     {
+      "_id": "negociostv",
+      "themes": ["negocios tv", "actualidad","economia", "noticias"],
+      "social": [
+        { "instagram": "https://www.instagram.com/negociostv" },
+        { "twitter": "https://twitter.com/negocios_tv" },
+        { "youtube": "https://www.youtube.com/@masnegocios" },
+        { "web": "https://www.negocios.com" }        
+      ]
+    },    
+    {
       "_id": "neokronomika",
       "themes": ["neokronomika", "fomenko", "historia", "nueva cronologia"],
       "social": [

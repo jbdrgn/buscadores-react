@@ -1,9 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import Select from 'react-dropdown-select';
 
-import { SelectTags, 
+import {
+  SelectTags,
   // SelectChannels, SelectThemes, 
-  Main } from './VideosElements';
+  Main
+} from './VideosElements';
 import Footer from '../../../components/Footer';
 import Navbar from '../../../components/Navbar';
 import Sidebar from '../../../components/Sidebar';
@@ -11,7 +13,7 @@ import Sidebar from '../../../components/Sidebar';
 import FilterVideo from '../../../components/FilterVideo';
 import data from '../../../data/videos.json';
 import capitalizeName, { capitalizeLine, removeDiacritics, cutTitle } from '../../../utils';
-import { SIN_COINCIDENCIAS, TEMAS, MAIN, MIN_WIDTH, THEMES, TRUE, DISABLED, VIDEOS, EMPTY } from '../../../constants/GeneralConstants';
+import { NO_MATCHES, TEMAS, MAIN, MIN_WIDTH, THEMES, TRUE, DISABLED, VIDEOS, EMPTY } from '../../../constants/GeneralConstants';
 
 // const searchBarChannelsFull = {
 //   padding:"21px",
@@ -27,12 +29,12 @@ import { SIN_COINCIDENCIAS, TEMAS, MAIN, MIN_WIDTH, THEMES, TRUE, DISABLED, VIDE
 // }
 
 const searchBarChannels = {
-  padding:"21px",
-  zIndex:996,
-  maxWidth:"50%",
+  padding: "21px",
+  zIndex: 996,
+  maxWidth: "50%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
   /* flex: "1 50%", */
 
@@ -40,12 +42,12 @@ const searchBarChannels = {
 }
 
 const searchBarChannelsSmall = {
-  padding:"21px",
-  zIndex:996,
-  minWidth:"100%",
+  padding: "21px",
+  zIndex: 996,
+  minWidth: "100%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
 
   position: "fixed"
@@ -65,12 +67,12 @@ const searchBarChannelsSmall = {
 // }
 
 const searchBarThemes = {
-  padding:"21px",
-  zIndex:993,
-  maxWidth:"50%",
+  padding: "21px",
+  zIndex: 993,
+  maxWidth: "50%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
   /* flex: "1 50%", */
 
@@ -78,13 +80,13 @@ const searchBarThemes = {
 }
 
 const searchBarThemesSmall = {
-  marginTop:"72px",
-  padding:"21px",
-  zIndex:993,
-  minWidth:"100%",
+  marginTop: "72px",
+  padding: "21px",
+  zIndex: 993,
+  minWidth: "100%",
 
-  fontSize:"24px",
-  backgroundColor:"#ffffff",
+  fontSize: "24px",
+  backgroundColor: "#ffffff",
   opacity: 1.0,
 
   left: "0px",
@@ -95,9 +97,9 @@ const searchBarThemesSmall = {
   opacity: 0.0,
 } */
 
-class Videos extends Component{
+class Videos extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.state = {
       is_open: false,
@@ -113,15 +115,15 @@ class Videos extends Component{
     //this.handleChangeTheme = this.handleChangeTheme.bind(this);
   }
 
-  componentDidMount(){
-    const handlerScreenUpdate = (e) => {this.setState({is_full_screen: e.matches});}
+  componentDidMount() {
+    const handlerScreenUpdate = (e) => { this.setState({ is_full_screen: e.matches }); }
     window.matchMedia(`(min-width: ${MIN_WIDTH}px)`).addEventListener('change', handlerScreenUpdate);
 
-    this.updateLastPath();      
+    this.updateLastPath();
   }
 
   updateLastPath = () => {
-    window.location.last = (window.location.last === undefined) ?         
+    window.location.last = (window.location.last === undefined) ?
       window.location.last = `${window.location.pathname}` :
       window.location.last = window.location.tmp;
     window.location.tmp = `${window.location.pathname}`
@@ -129,9 +131,9 @@ class Videos extends Component{
   }
 
   toggle = () => {
-    this.state.is_open ? 
-      this.setState({is_open: false}) : 
-      this.setState({is_open: true});
+    this.state.is_open ?
+      this.setState({ is_open: false }) :
+      this.setState({ is_open: true });
   }
 
   handleChange = (item, num) => {
@@ -151,16 +153,16 @@ class Videos extends Component{
   }
   */
 
-  checkActiveSelect = function(filter_to_match, active_filter){
+  checkActiveSelect = function (filter_to_match, active_filter) {
     return -1 < active_filter && active_filter !== filter_to_match;
   }
 
   //NOT USED
-  disableSelect = function(text, id, var_text, var_id){
+  disableSelect = function (text, id, var_text, var_id) {
     return var_text !== text && var_id !== id;
-  }    
+  }
 
-  render(){
+  render() {
 
     var {
       is_open, items, is_full_screen, match_text, active_filter
@@ -170,22 +172,22 @@ class Videos extends Component{
     var videos = [];
     var themesNames = new Set();
     var themes = [];
-    
+
     //load videos data (use .forEach instead .filter or .map)
     items.forEach((item) => {
       var it = item;
       it._id = removeDiacritics(item._id);
 
-      item.themes.forEach((theme,id) => {
+      item.themes.forEach((theme, id) => {
         //remove Diacritics
-        it.themes[id]=removeDiacritics(theme);
+        it.themes[id] = removeDiacritics(theme);
         //load Themes names
-        if(id !== 0){ themesNames.add(it.themes[id]);} 
+        if (id !== 0) { themesNames.add(it.themes[id]); }
       })
 
       //load Channels data (use .forEach instead .filter or .map)
       var shortTitle = it.themes[0].split("(")[0];
-      videos.push({ 
+      videos.push({
         value: it._id,
         label: cutTitle(shortTitle, 32, ".")
       });
@@ -195,8 +197,8 @@ class Videos extends Component{
     items = items_tmp;
 
     //sort videos alphabethically
-    videos.sort((a,b) => {
-      return a.value > b.value ? 1 : -1 ;
+    videos.sort((a, b) => {
+      return a.value > b.value ? 1 : -1;
     })
 
     //load Themes data
@@ -208,37 +210,37 @@ class Videos extends Component{
     })
 
     //sort Themes alphabethically
-    themes.sort((a,b) => {
-      return a.value > b.value ? 1 : -1 ;
+    themes.sort((a, b) => {
+      return a.value > b.value ? 1 : -1;
     })
 
     return (
       <>
-        <Sidebar is_open={is_open} toggle={this.toggle}/>
+        <Sidebar is_open={is_open} toggle={this.toggle} />
         <Main id={MAIN}></Main>
-        <Navbar is_open={is_open} toggle={this.toggle}/>
+        <Navbar is_open={is_open} toggle={this.toggle} />
         <SelectTags>
-          <Select options={videos} 
+          <Select options={videos}
             className={VIDEOS}
-            style={ is_full_screen ? searchBarChannels : searchBarChannelsSmall } 
-            placeholder={ (match_text !== EMPTY && active_filter !== 1) ? `(${capitalizeName(VIDEOS)} ${capitalizeName(DISABLED)})` : capitalizeName(VIDEOS) }
-            onChange={(channel) => this.handleChange(channel,Number(1))}
-            noDataLabel={capitalizeLine(SIN_COINCIDENCIAS)}
-            disabled={ match_text !== EMPTY && active_filter !== 1} 
+            style={is_full_screen ? searchBarChannels : searchBarChannelsSmall}
+            placeholder={(match_text !== EMPTY && active_filter !== 1) ? `(${capitalizeName(DISABLED)})` : capitalizeName(VIDEOS)}
+            onChange={(channel) => this.handleChange(channel, Number(1))}
+            noDataLabel={capitalizeLine(NO_MATCHES)}
+            disabled={match_text !== EMPTY && active_filter !== 1}
             clearable={TRUE}
-          /> 
-          <Select options={themes} 
+          />
+          <Select options={themes}
             className={THEMES}
-            style={ is_full_screen ? searchBarThemes : searchBarThemesSmall } 
-            placeholder={ (match_text !== EMPTY && active_filter !== 2) ? `(${capitalizeName(TEMAS)} ${capitalizeName(DISABLED)})` : capitalizeName(TEMAS) }
-            onChange={(theme) => this.handleChange(theme,Number(2))} 
-            noDataLabel={capitalizeLine(SIN_COINCIDENCIAS)}
-            disabled={ match_text !== EMPTY && active_filter !== 2 }
+            style={is_full_screen ? searchBarThemes : searchBarThemesSmall}
+            placeholder={(match_text !== EMPTY && active_filter !== 2) ? `(${capitalizeName(DISABLED)})` : capitalizeName(THEMES)}
+            onChange={(theme) => this.handleChange(theme, Number(2))}
+            noDataLabel={capitalizeLine(NO_MATCHES)}
+            disabled={match_text !== EMPTY && active_filter !== 2}
             clearable={TRUE}
-          /> 
+          />
         </SelectTags>
-        <FilterVideo items={items} match_text={match_text} active_filter={active_filter}/>
-        <Footer/>
+        <FilterVideo items={items} match_text={match_text} active_filter={active_filter} />
+        <Footer />
       </>
     );
   }
