@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import { ToastContainer as Toast, toast } from 'react-toast';
 import {
-    CANALES,
+    CHANNELS,
     CONTACT,
     // CONTACTO,
     // NAME,
@@ -66,7 +66,7 @@ class Sidebar extends Component {
 
                     <SidebarMenu>
                         <SidebarRoute to={ROOT} onClick={toggle} >
-                            {capitalizeName(CANALES)}
+                            {capitalizeName(CHANNELS)}
                         </SidebarRoute>
                         {/* <SidebarRoute to={'..'+asPath(VIDEOS)} onClick={toggle}>
                             {capitalizeName(VIDEOS)} 
