@@ -168,9 +168,8 @@
       ],
       "social": [
         { "dailymotion": "https://www.dailymotion.com/Canal5Radio" },
-        {
-          "ivoox": "https://www.ivoox.com/en/perfil-canal-5tv_a8_podcaster_12609352_1.html"
-        },
+        { "ivoox": "https://www.ivoox.com/en/perfil-canal-5tv_a8_podcaster_12609352_1.html" },
+        { "kick": "https://kick.com/canal5tv" },
         { "odysee": "https://odysee.com/@CANAL5RADIO:a" },
         { "rumble": "https://rumble.com/user/canal5tv" },
         { "telegram": "https://t.me/canal5informa" },
