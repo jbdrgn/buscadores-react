@@ -707,6 +707,20 @@
       ]
     },
     {
+      "_id": "nuevamedicina",
+      "themes": [
+        "nueva medicina",
+        "curso",
+        "nueva medicina germanica"
+      ],
+      "social": [
+        { "instagram" : "https://www.instagram.com/nuevamedicina.online/" },
+        { "tiktok" : "http://www.tiktok.com/@nuevamedicinaonline" },                
+        { "twitter" : "https://twitter.com/NuevaMedicinaOK" },
+        { "web" : "https://www.nuevamedicina.online/" }
+      ]
+    },    
+    {
       "_id": "nuevodesordenmundial",
       "themes": [
         "nuevo desorden mundial",
