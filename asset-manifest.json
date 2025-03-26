@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/buscadores-react/static/css/main.cb669b7f.chunk.css",
-    "main.js": "/buscadores-react/static/js/main.952f0638.chunk.js",
-    "main.js.map": "/buscadores-react/static/js/main.952f0638.chunk.js.map",
+    "main.js": "/buscadores-react/static/js/main.0f29c511.chunk.js",
+    "main.js.map": "/buscadores-react/static/js/main.0f29c511.chunk.js.map",
     "runtime-main.js": "/buscadores-react/static/js/runtime-main.d2d61f02.js",
     "runtime-main.js.map": "/buscadores-react/static/js/runtime-main.d2d61f02.js.map",
     "static/css/2.da68fc70.chunk.css": "/buscadores-react/static/css/2.da68fc70.chunk.css",
-    "static/js/2.76c372c9.chunk.js": "/buscadores-react/static/js/2.76c372c9.chunk.js",
-    "static/js/2.76c372c9.chunk.js.map": "/buscadores-react/static/js/2.76c372c9.chunk.js.map",
+    "static/js/2.1cd39335.chunk.js": "/buscadores-react/static/js/2.1cd39335.chunk.js",
+    "static/js/2.1cd39335.chunk.js.map": "/buscadores-react/static/js/2.1cd39335.chunk.js.map",
     "index.html": "/buscadores-react/index.html",
-    "precache-manifest.26bac5505f65004d68242fcbf3179e50.js": "/buscadores-react/precache-manifest.26bac5505f65004d68242fcbf3179e50.js",
+    "precache-manifest.b3433530d00d3c193d9baa6112dbb81b.js": "/buscadores-react/precache-manifest.b3433530d00d3c193d9baa6112dbb81b.js",
     "service-worker.js": "/buscadores-react/service-worker.js",
     "static/css/2.da68fc70.chunk.css.map": "/buscadores-react/static/css/2.da68fc70.chunk.css.map",
     "static/css/main.cb669b7f.chunk.css.map": "/buscadores-react/static/css/main.cb669b7f.chunk.css.map",
-    "static/js/2.76c372c9.chunk.js.LICENSE.txt": "/buscadores-react/static/js/2.76c372c9.chunk.js.LICENSE.txt",
+    "static/js/2.1cd39335.chunk.js.LICENSE.txt": "/buscadores-react/static/js/2.1cd39335.chunk.js.LICENSE.txt",
     "static/media/33tv.png": "/buscadores-react/static/media/33tv.c8b71ee6.png",
     "static/media/acodap.png": "/buscadores-react/static/media/acodap.6518187a.png",
     "static/media/acu.png": "/buscadores-react/static/media/acu.07cde27a.png",
@@ -88,6 +88,7 @@
     "static/media/negociostv.png": "/buscadores-react/static/media/negociostv.1b89ae73.png",
     "static/media/neokronomika.png": "/buscadores-react/static/media/neokronomika.6f803979.png",
     "static/media/noestoydebroma.png": "/buscadores-react/static/media/noestoydebroma.e601b91a.png",
+    "static/media/nuevamedicina.png": "/buscadores-react/static/media/nuevamedicina.0c342e65.png",
     "static/media/nuevodesordenmundial.png": "/buscadores-react/static/media/nuevodesordenmundial.3b94242c.png",
     "static/media/nurparatodos.png": "/buscadores-react/static/media/nurparatodos.0de27345.png",
     "static/media/oddtv.png": "/buscadores-react/static/media/oddtv.29149580.png",
@@ -140,8 +141,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2d61f02.js",
     "static/css/2.da68fc70.chunk.css",
-    "static/js/2.76c372c9.chunk.js",
+    "static/js/2.1cd39335.chunk.js",
     "static/css/main.cb669b7f.chunk.css",
-    "static/js/main.952f0638.chunk.js"
+    "static/js/main.0f29c511.chunk.js"
   ]
 }
