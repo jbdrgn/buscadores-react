@@ -367,9 +367,11 @@
         "notícias"
       ],
       "social": [
-        { "telegram": "https://t.me/ElDiestro" },
+        { "telegram": "https://t.me/ElDiestro" },        
+        { "telegram": "https://t.me/eldiestrotv" },
+        { "twitch": "https://m.twitch.tv/eldiestroes" },
         { "videos": "https://eldiestro.tv/" },
-        { "web": "https://www.eldiestro.es/" }
+        { "web": "https://www.eldiestro.es/" }        
       ]
     },
     {
