@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 // import { ToastContainer as Toast, toast } from 'react-toast';
 import {
-    COPY, COPIED_MESSAGE, COPIED_VISIBLE_TIME, EMAIL,
-    ROOT,
+    BACK, COPY, COPIED_MESSAGE, COPIED_VISIBLE_TIME, EMAIL,
+    ROOT
     // MAIN, SERVICES, SIGN_UP, SIGN_IN, SOCIAL, INICIO, FOOTER, 
-    VOLVER
 } from '../../constants/GeneralConstants';
 import capitalizeName from '../../utils';
 import {
@@ -133,7 +132,7 @@ class Contact extends Component {
                                 onMouseLeave={this.onHover}
                             >
                                 {hover ? <ArrowBack /> : <ArrowLeft />}
-                                <BtnTextBack>{capitalizeName(VOLVER)}</BtnTextBack>
+                                <BtnTextBack>{capitalizeName(BACK)}</BtnTextBack>
                             </BtnBack>
                         </SidebarRoute>
                     </SidebarBtnWrap>

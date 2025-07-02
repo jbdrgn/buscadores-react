@@ -96,6 +96,7 @@ export const VIDEOS = "videos";
 
 
 //NAV CONSTANTS
+export const BACK = 'back'
 export const CONTACTO = 'contacto'
 export const FOOTER = 'footer';
 export const INICIO = 'inicio';
@@ -105,7 +106,6 @@ export const SERVICES = 'services';
 export const SIGN_IN = 'sign in';
 export const SIGN_UP = 'sign up';
 export const SOCIAL = 'social';
-export const VOLVER = 'volver'
 export const X = 'x'
 
 

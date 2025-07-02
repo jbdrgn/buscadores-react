@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 // import { ToastContainer as Toast, toast } from 'react-toast';
 import {
+    BACK,
     CHANNELS,
     CONTACT,
     // CONTACTO,
     // NAME,
     // NUMEROS_DE_TU_NOMBRE,
-    ROOT,
+    ROOT
     // MAIN, SERVICES, SIGN_UP, SIGN_IN, SOCIAL, INICIO, FOOTER, 
-    VOLVER,
 } from '../../constants/GeneralConstants';
 import capitalizeName, { asPath } from '../../utils';
 import {
@@ -92,7 +92,7 @@ class Sidebar extends Component {
                             onMouseLeave={this.onHover}
                         >
                             {hover ? <ArrowBack /> : <ArrowLeft />}
-                            <BtnTextBack>{capitalizeName(VOLVER)}</BtnTextBack>
+                            <BtnTextBack>{capitalizeName(BACK)}</BtnTextBack>
                         </BtnBack>
                     </SidebarBtnWrap>
 

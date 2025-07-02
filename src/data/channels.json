@@ -343,7 +343,7 @@
         { "twitter": "https://x.com/EclecticosWorld" },
         { "web": "https://www.eclecticosworldwide.com/" }
       ]
-    },    
+    },
     {
       "_id": "elcodigobiologico",
       "themes": [
@@ -847,8 +847,8 @@
       "_id": "plural21",
       "themes": [
         "plural 21",
-        "asociación",
         "entrevistas",
+        "ley natural",
         "salud"
       ],
       "social": [
@@ -875,6 +875,18 @@
         { "web": "https://www.policiasporlalibertad.com/" }
       ]
     },
+    {
+      "_id": "elblogdera",
+      "themes": [
+        "el blog de ra",
+        "ley natural",
+        "soberanía"
+      ],
+      "social": [
+        { "youtube": "https://www.youtube.com/@laremlderaamanda" },
+        { "web": "https://elblogdera.com/" }
+      ]
+    },    
     {
       "_id": "libertademocional",
       "themes": [

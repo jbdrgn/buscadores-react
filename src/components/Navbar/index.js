@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FaBars, FaArrowLeft } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { 
+import {
   BLACK_HTML,
   LOGO,
   MAIN,
@@ -28,26 +28,28 @@ import {
   MobileIcon,
   NavBtn,
   NavBtnContainer,
-  NavBtnLink,  
-  NavMobileBtnLink,  
+  NavBtnLink,
+  NavMobileBtnLink,
+  NavTxt,
   // NavMenu,
   // NavItem,
   // NavLinks,
   // NavBtnLink
 } from './NavbarElements';
 
-import 
-  // capitalizeName,
-  {capitalizeLine, 
-    // trimLine, asPath
-  } from '../../utils';
+import
+// capitalizeName,
+{
+  capitalizeLine,
+  // trimLine, asPath
+} from '../../utils';
 
 class Navbar extends Component {
 
-  constructor(){
+  constructor() {
     super();
     this.state = {
-      is_navbar_transparent:false
+      is_navbar_transparent: false
     }
   }
 
@@ -63,66 +65,69 @@ class Navbar extends Component {
     window.addEventListener('scroll', setNavbarTransparent);
   },[])
   */
-  
-  render(){
 
+  render() {
+
+    const OWN_EMAIL = `${process.env.REACT_APP_EMAIL}`;
     //const {is_navbar_transparent} = this.state;
-    const {is_open, is_param, resetActiveFilter, toggle} = this.props;
+    const { is_open, is_param, resetActiveFilter, toggle } = this.props;
 
     return (
       <>
-      {/* Hamb. menu icon's color */}
-      <IconContext.Provider value={{ color: BLACK_HTML}}>
-        <Nav is_navbar_transparent={false}>
+        {/* Hamb. menu icon's color */}
+        <IconContext.Provider value={{ color: BLACK_HTML }}>
+          <Nav is_navbar_transparent={false}>
             {/* Logo Icon */}
-          <NavIcon to={MAIN}>
-            <img src={require('../../images/white_rabbit_64.svg')} 
-              alt={LOGO} 
-            />
-          </NavIcon>
-  
-          <NavbarContainer>
-            <NavLogo to={ROOT_SLASH}><span></span></NavLogo>
+            <NavIcon to={MAIN}>
+              <img src={require('../../images/white_rabbit_64.svg')}
+                alt={LOGO}
+              />
+            </NavIcon>
 
-            {/*          
-            <NavMenu>
-              <NavItem>
-                <NavLinks to={MAIN}
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  {capitalizeName(MAIN)}</NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to={FOOTER}
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  {capitalizeName(FOOTER)}</NavLinks>
-              </NavItem>
-            </NavMenu>
-            */}          
-              
-            {/* Icon to display the NavMenu options */}
-            {
-              !is_param ?
-              <MobileIcon onClick={toggle}>
-                <FaBars />
-              </MobileIcon>
-              :
-              <NavMobileBtnLink to={ROOT} onClick={resetActiveFilter()}>
-                <MobileIcon>
-                  <FaArrowLeft />
-                </MobileIcon>
-              </NavMobileBtnLink>
-            }
-  
+            <NavbarContainer>
+              <NavLogo to={ROOT_SLASH}><span></span></NavLogo>
+              <NavTxt>{OWN_EMAIL}</NavTxt>
+
+              {/*          
+                <NavMenu>
+                  <NavItem>
+                    <NavLinks to={MAIN}
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact='true'
+                      offset={-80}
+                    >
+                      {capitalizeName(MAIN)}</NavLinks>
+                  </NavItem>
+                  <NavItem>
+                    <NavLinks to={FOOTER}
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact='true'
+                      offset={-80}
+                    >
+                      {capitalizeName(FOOTER)}</NavLinks>
+                  </NavItem>
+                </NavMenu>
+              */}
+
+              {/* Icon to display the NavMenu options */}
+              {/*
+                !is_param ?
+                  <MobileIcon onClick={toggle}>
+                    <FaBars />
+                  </MobileIcon>
+                  :
+                  <NavMobileBtnLink to={ROOT} onClick={resetActiveFilter()}>
+                    <MobileIcon>
+                      <FaArrowLeft />
+                    </MobileIcon>
+                  </NavMobileBtnLink>
+              */}
+
+              {/*
             <NavBtnContainer>
               { 
                 !is_param ? 
@@ -138,11 +143,13 @@ class Navbar extends Component {
                 <NavBtnLink to={ROOT} onClick={resetActiveFilter()}>
                   {capitalizeLine(RESET)}
                 </NavBtnLink>
-            }
+              }
             </NavBtnContainer>
-          </NavbarContainer>
-        </Nav>
-      </IconContext.Provider>
+            */}
+
+            </NavbarContainer>
+          </Nav>
+        </IconContext.Provider>
       </>
     );
   }

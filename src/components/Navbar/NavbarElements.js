@@ -6,7 +6,7 @@ import { Link as LinkScroll } from 'react-scroll';
 
 
 export const Nav = styled.nav`
-  background: ${({is_navbar_transparent}) => (is_navbar_transparent ? 'transparent' : '#000')};
+  background: ${({ is_navbar_transparent }) => (is_navbar_transparent ? 'transparent' : '#000')};
   height: 80px;
   /* margin-top: -80px; */
   display: flex;
@@ -157,4 +157,14 @@ export const NavBtn = styled.div`
     background: #fff;
     color: #010606;
   }
+`;
+
+export const NavTxt = styled.div`
+  white-space: nowrap;
+  padding: 24px 0px 0px 0px;
+  color: #01bf71;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  text-decoration: none;
 `;
