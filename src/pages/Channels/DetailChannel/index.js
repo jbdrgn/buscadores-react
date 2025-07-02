@@ -25,7 +25,7 @@ import {
     DetailChannelFooter
 } from './DetailChannelElement';
 
-import { BACK, CHANNELS, HYPHEN, MAIN, TITLE, _BLANK } from '../../../constants/GeneralConstants';
+import { BACK, CHANNELS, HYPHEN, MAIN, TITLE, _BLANK, ROOT } from '../../../constants/GeneralConstants';
 
 export class ChannelDetail extends Component {
 
@@ -110,6 +110,7 @@ export class ChannelDetail extends Component {
                     </KeyContainer>
                 </MainContainer>
 
+                {/*
                 <DetailChannelRoute to={'..' + asPath(CHANNELS)}>
                     <BtnBack onClick={this.toggle}
                         onMouseEnter={this.onHover}
@@ -119,6 +120,18 @@ export class ChannelDetail extends Component {
                         <BtnTextBack>{capitalizeName(BACK)}</BtnTextBack>
                     </BtnBack>
                 </DetailChannelRoute>
+                */}
+
+                <DetailChannelRoute to={ROOT}>
+                    <BtnBack onClick={this.toggle}
+                        onMouseEnter={this.onHover}
+                        onMouseLeave={this.onHover}
+                    >
+                        {hover ? <ArrowBack /> : <ArrowLeft />}
+                        <BtnTextBack>{capitalizeName(BACK)}</BtnTextBack>
+                    </BtnBack>
+                </DetailChannelRoute>
+
                 <DetailChannelFooter>
                     <Footer />
                 </DetailChannelFooter>
